@@ -1,0 +1,21 @@
+// In fragment shader (SimpleFragmentShader2.fragmentshader)
+#version 330 core
+out vec4 FragColor;
+
+in vec3 vCouleur;
+in vec2 vTexture;
+flat in int TextureIndex;
+
+uniform sampler2D textures[4];  // Must match vertex shader
+
+void main()
+{
+    vec4 texColor;
+    switch(TextureIndex) {
+        case 0: texColor = texture(textures[0], vTexture); break;
+        case 1: texColor = texture(textures[1], vTexture); break;
+        default: texColor = vec4(1.0, 0.0, 1.0, 1.0); // Magenta for error
+    }
+    
+    FragColor = texColor;
+}

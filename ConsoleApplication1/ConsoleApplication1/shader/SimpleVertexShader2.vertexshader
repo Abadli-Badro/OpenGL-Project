@@ -1,0 +1,21 @@
+// In vertex shader (SimpleVertexShader2.vertexshader)
+#version 330 core
+layout (location = 0) in vec3 aPos;
+layout (location = 1) in vec3 aColor;
+layout (location = 2) in vec2 aTexCoord;
+layout (location = 3) in int aTextureIndex;  // New attribute
+
+uniform mat4 MVP;
+uniform sampler2D textures[4];  // Allow up to 4 textures
+
+out vec3 vCouleur;
+out vec2 vTexture;
+out int TextureIndex;
+
+void main()
+{
+    gl_Position = MVP * vec4(aPos, 1.0);
+    vCouleur = aColor;   // Forward the color to fragment shader (if needed)
+    vTexture = aTexCoord;   // Forward the texture coordinates to fragment shader
+    TextureIndex = aTextureIndex;
+}

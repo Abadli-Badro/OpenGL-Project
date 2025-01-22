@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\ConsoleApplication1",
+    "\\ConsoleApplication1\\libs",
+    "\\ConsoleApplication1\\libs\\glad",
+    "\\ConsoleApplication1\\libs\\glad\\include",
+    "\\ConsoleApplication1\\libs\\glad\\include\\glad",
+    "\\ConsoleApplication1\\libs\\glad\\include\\KHR",
+    "\\ConsoleApplication1\\libs\\glad\\src",
+    "\\ConsoleApplication1\\model",
+    "\\ConsoleApplication1\\shader"
+  ],
+  "SelectedNode": "\\ConsoleApplication1\\textures.cpp",
+  "PreviewInSolutionExplorer": true
+}
