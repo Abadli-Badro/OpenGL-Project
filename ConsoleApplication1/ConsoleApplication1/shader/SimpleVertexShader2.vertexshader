@@ -1,21 +1,25 @@
 // In vertex shader (SimpleVertexShader2.vertexshader)
 #version 330 core
 layout (location = 0) in vec3 aPos;
-layout (location = 1) in vec3 aColor;
+layout (location = 1) in vec3 aNormal;  // Add normal vector attribute
 layout (location = 2) in vec2 aTexCoord;
-layout (location = 3) in int aTextureIndex;  // New attribute
+layout (location = 3) in int aTextureIndex;  // Texture index attribute
 
 uniform mat4 MVP;
-uniform sampler2D textures[4];  // Allow up to 4 textures
+uniform mat4 model;  // Model matrix
+uniform mat4 view;   // View matrix
+uniform mat4 projection; // Projection matrix
 
-out vec3 vCouleur;
+out vec3 FragPos;    // Position of the fragment in world space
+out vec3 Normal;     // Normal vector in world space
 out vec2 vTexture;
-out int TextureIndex;
+flat out int TextureIndex;
 
 void main()
 {
     gl_Position = MVP * vec4(aPos, 1.0);
-    vCouleur = aColor;   // Forward the color to fragment shader (if needed)
-    vTexture = aTexCoord;   // Forward the texture coordinates to fragment shader
+    FragPos = vec3(model * vec4(aPos, 1.0));  // Calculate fragment position in world space
+    Normal = mat3(transpose(inverse(model))) * aNormal;  // Correctly transform normal vector
+    vTexture = aTexCoord;   // Forward texture coordinates to fragment shader
     TextureIndex = aTextureIndex;
 }

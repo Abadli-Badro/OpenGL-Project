@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -105,6 +105,7 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>C:\Users\BAH\Documents\TP SIM\ConsoleApplication1\ConsoleApplication1\libs\glad\include; C:\Users\BAH\Documents\TP SIM\ConsoleApplication1\ConsoleApplication1\libs\glfw-3.4.bin.WIN64\glfw-3.4.bin.WIN64\include; C:\Users\BAH\Documents\TP SIM\ConsoleApplication1\ConsoleApplication1\libs\glm-master\glm-master\glm; C:\Users\BAH\Documents\TP SIM\ConsoleApplication1\ConsoleApplication1\model; C:\Users\BAH\Documents\TP SIM\ConsoleApplication1\ConsoleApplication1\shader;</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -133,16 +134,20 @@
     <ClCompile Include="..\..\..\GitHub\atlas\main.cpp" />
     <ClCompile Include="ConsoleApplication1.cpp" />
     <ClCompile Include="libs\glad\src\glad.c" />
+    <ClCompile Include="ModelTest.cpp" />
+    <ClCompile Include="model\objload.cpp" />
     <ClCompile Include="shader\shader.cpp" />
     <ClCompile Include="TestingDaShit.cpp" />
     <ClCompile Include="textures.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\GitHub\atlas\shader.h" />
+    <ClInclude Include="libs\PerlinNoise.hpp" />
     <ClInclude Include="libs\stb_image.h" />
     <ClInclude Include="shader\shader.hpp" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="cpp.hint" />
     <None Include="shader\SimpleFragmentShader.fragmentshader" />
     <None Include="shader\SimpleFragmentShader2.fragmentshader" />
     <None Include="shader\SimpleVertexShader.vertexshader" />

@@ -1,6 +1,8 @@
 C:\Users\BAH\Documents\GitHub\atlas\main.cpp;C:\Users\BAH\Documents\TP SIM\ConsoleApplication1\ConsoleApplication1\x64\Debug\main.obj
 C:\Users\BAH\Documents\TP SIM\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp;C:\Users\BAH\Documents\TP SIM\ConsoleApplication1\ConsoleApplication1\x64\Debug\ConsoleApplication1.obj
 C:\Users\BAH\Documents\TP SIM\ConsoleApplication1\ConsoleApplication1\libs\glad\src\glad.c;C:\Users\BAH\Documents\TP SIM\ConsoleApplication1\ConsoleApplication1\x64\Debug\glad.obj
+C:\Users\BAH\Documents\TP SIM\ConsoleApplication1\ConsoleApplication1\ModelTest.cpp;C:\Users\BAH\Documents\TP SIM\ConsoleApplication1\ConsoleApplication1\x64\Debug\ModelTest.obj
+C:\Users\BAH\Documents\TP SIM\ConsoleApplication1\ConsoleApplication1\model\objload.cpp;C:\Users\BAH\Documents\TP SIM\ConsoleApplication1\ConsoleApplication1\x64\Debug\objload.obj
 C:\Users\BAH\Documents\TP SIM\ConsoleApplication1\ConsoleApplication1\shader\shader.cpp;C:\Users\BAH\Documents\TP SIM\ConsoleApplication1\ConsoleApplication1\x64\Debug\shader.obj
 C:\Users\BAH\Documents\TP SIM\ConsoleApplication1\ConsoleApplication1\TestingDaShit.cpp;C:\Users\BAH\Documents\TP SIM\ConsoleApplication1\ConsoleApplication1\x64\Debug\TestingDaShit.obj
 C:\Users\BAH\Documents\TP SIM\ConsoleApplication1\ConsoleApplication1\textures.cpp;C:\Users\BAH\Documents\TP SIM\ConsoleApplication1\ConsoleApplication1\x64\Debug\textures.obj

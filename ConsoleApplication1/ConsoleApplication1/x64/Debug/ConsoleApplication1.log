@@ -1,5 +1,29 @@
-﻿  textures.cpp
-C:\Users\BAH\Documents\TP SIM\ConsoleApplication1\ConsoleApplication1\textures.cpp(96,12): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
-C:\Users\BAH\Documents\TP SIM\ConsoleApplication1\ConsoleApplication1\textures.cpp(97,14): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+﻿  main.cpp
+  ConsoleApplication1.cpp
+  ModelTest.cpp
+  objload.cpp
+  shader.cpp
+  TestingDaShit.cpp
+  textures.cpp
+C:\Users\BAH\Documents\TP SIM\ConsoleApplication1\ConsoleApplication1\textures.cpp(156,75): warning C4244: 'argument': conversion from 'GLfloat' to 'GLint', possible loss of data
+C:\Users\BAH\Documents\TP SIM\ConsoleApplication1\ConsoleApplication1\textures.cpp(188,25): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\BAH\Documents\TP SIM\ConsoleApplication1\ConsoleApplication1\textures.cpp(221,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\BAH\Documents\TP SIM\ConsoleApplication1\ConsoleApplication1\textures.cpp(245,12): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\BAH\Documents\TP SIM\ConsoleApplication1\ConsoleApplication1\textures.cpp(246,14): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\BAH\Documents\TP SIM\ConsoleApplication1\ConsoleApplication1\textures.cpp(532,46): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+C:\Users\BAH\Documents\TP SIM\ConsoleApplication1\ConsoleApplication1\textures.cpp(532,46): warning C4244:         with
+C:\Users\BAH\Documents\TP SIM\ConsoleApplication1\ConsoleApplication1\textures.cpp(532,46): warning C4244:         [
+C:\Users\BAH\Documents\TP SIM\ConsoleApplication1\ConsoleApplication1\textures.cpp(532,46): warning C4244:             T=float
+C:\Users\BAH\Documents\TP SIM\ConsoleApplication1\ConsoleApplication1\textures.cpp(532,46): warning C4244:         ]
+C:\Users\BAH\Documents\TP SIM\ConsoleApplication1\ConsoleApplication1\textures.cpp(574,57): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+C:\Users\BAH\Documents\TP SIM\ConsoleApplication1\ConsoleApplication1\textures.cpp(610,55): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+C:\Users\BAH\Documents\TP SIM\ConsoleApplication1\ConsoleApplication1\textures.cpp(610,55): warning C4244:         with
+C:\Users\BAH\Documents\TP SIM\ConsoleApplication1\ConsoleApplication1\textures.cpp(610,55): warning C4244:         [
+C:\Users\BAH\Documents\TP SIM\ConsoleApplication1\ConsoleApplication1\textures.cpp(610,55): warning C4244:             T=float
+C:\Users\BAH\Documents\TP SIM\ConsoleApplication1\ConsoleApplication1\textures.cpp(610,55): warning C4244:         ]
+C:\Users\BAH\Documents\TP SIM\ConsoleApplication1\ConsoleApplication1\textures.cpp(853,54): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+C:\Users\BAH\Documents\TP SIM\ConsoleApplication1\ConsoleApplication1\textures.cpp(860,55): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  Generating Code...
+  glad.c
 LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
   ConsoleApplication1.vcxproj -> C:\Users\BAH\Documents\TP SIM\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe

@@ -33,6 +33,12 @@
     <ClCompile Include="TestingDaShit.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="model\objload.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="shader\shader.hpp">
@@ -42,6 +48,9 @@
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="libs\stb_image.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\PerlinNoise.hpp">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -64,5 +73,6 @@
     <None Include="shader\skybox.vertexshader">
       <Filter>Source Files</Filter>
     </None>
+    <None Include="cpp.hint" />
   </ItemGroup>
 </Project>

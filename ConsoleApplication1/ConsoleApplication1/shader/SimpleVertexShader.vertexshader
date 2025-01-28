@@ -1,0 +1,16 @@
+#version 330 core
+
+layout(location = 0) in vec3 aPos; // Position of the vertex
+out vec3 FragPos; // Position of the fragment in world space
+out vec3 Normal;  // Normal for lighting calculations
+
+uniform mat4 u_model;       // Model transformation
+uniform mat4 u_view;        // View transformation
+uniform mat4 u_projection;  // Projection transformation
+
+void main() {
+    FragPos = vec3(u_model * vec4(aPos, 1.0)); // Transform vertex position to world space
+    Normal = normalize(vec3(0.0, 1.0, 0.0));   // Use an upward normal for a flat terrain
+
+    gl_Position = u_projection * u_view * vec4(FragPos, 1.0); // Transform to clip space
+}
